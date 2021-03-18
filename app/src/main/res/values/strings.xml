@@ -16,4 +16,5 @@
     <string name="_poit">.</string>
     <string name="_calculate">=</string>
     <string name="_division">/</string>
+    <string name="text_clear">c</string>
 </resources>
