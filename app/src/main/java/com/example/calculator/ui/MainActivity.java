@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         digitsMap.put(R.id.text_8, "8");
         digitsMap.put(R.id.text_9, "9");
         digitsMap.put(R.id.text_0, "0");
-        digitsMap.put(R.id.text_point, ".");
+        digitsMap.put(R.id.text_point, getResources().getString(R.string._point));
 
         View.OnClickListener digitCLickListener = new View.OnClickListener() {
             @Override
