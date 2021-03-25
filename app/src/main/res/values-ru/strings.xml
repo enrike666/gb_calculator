@@ -14,11 +14,11 @@
     <string name="_9">9</string>
     <string name="_mult">*</string>
     <string name="_0">0</string>
-    <string name="_point">.</string>
+    <string name="_point">,</string>
     <string name="_calculate">=</string>
     <string name="_division">/</string>
     <string name="text_clear">c</string>
-    <string name="result">result</string>
+    <string name="result">результат</string>
     <string name="agr1_hint">A1</string>
     <string name="arg2_hint">A2</string>
 </resources>

@@ -1,3 +1,4 @@
+
 package com.example.calculator.ui;
 
 import android.content.Context;
@@ -39,7 +40,9 @@ public class CalculatorPresenter {
 
     public void calculate() {
         if ((arg1.length() != 0) && (arg2.length() != 0)) {
-            double resultD =  calculator.calculatingResult(Double.parseDouble(arg1.toString()), Double.parseDouble(arg2.toString()), operation );
+            String arg1Srt = arg1.toString().replaceAll(",", ".");
+            String arg2Srt = arg2.toString().replaceAll(",", ".");
+            double resultD =  calculator.calculatingResult(Double.parseDouble(arg1Srt), Double.parseDouble(arg2Srt), operation );
             this.result = Double.toString(resultD);
         }
     }

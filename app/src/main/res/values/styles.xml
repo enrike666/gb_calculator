@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="KeyboardStyle">
+        <item name="android:textSize">@dimen/button_text</item>
+        <item name="android:textColor">@color/all_text</item>
+        <item name="android:fontFamily">@font/my_font</item>
+        <item name="android:backgroundTint">@color/all</item>
+    </style>
+
+</resources>
